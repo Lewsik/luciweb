@@ -41,9 +41,10 @@ img {
 }
 
 .column {
+
     float: left;
     width: 33.33%;
-    padding: 25px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -54,9 +55,8 @@ img {
 }
 
 @media screen and (max-width:600px) {
-    .column .aboutL {
+    .column {
         width: 100%;
-        margin: 0px;
     }
     .bigtitle {
         font-size: 8vw;
