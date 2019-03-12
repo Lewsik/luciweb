@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 1px;
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+    margin: 2px;
+}
+
+#bigTitle {
+    font-family: 'Share Tech Mono', monospace;
+    text-align: right;
+    font-size: 40px;
+    padding: 2px;
+    margin: 1px;
+}
+
+img {
+    height: auto;
+    min-width: 30%;
+    max-width: 30%;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 3px;
+    display: inline-block; 
+}
+
+.sentence {
+    margin: 1px;
+    padding: 1px;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column .aboutL {
+        width: 100%;
+        margin: 0px;
+    }
+    .bigtitle {
+        font-size: 8vw;
+    }
+    img {
+        min-width: 30%;
+    }
+
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Share Tech Mono', monospace;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.box2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 1px;
+    border: 2px;
+    padding: 20px;
+    line-height: 35px;
+}
+
+.boxtitles {
+    font-family: 'Share Tech Mono', monospace;
+    
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(223, 89, 178);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
